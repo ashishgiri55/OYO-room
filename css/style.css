@@ -1,0 +1,652 @@
+body{
+    font-family: 'Open Sans',sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color: #eee;
+}
+#LogoAndMenuBlock{
+    background-color: #fff;
+    height: 70px;
+    box-shadow: 1px 1px 4px 1px #eee;
+    display: flex;
+    align-items: center;
+}
+#LogoAndMenuBlock article{
+    width: 90%;
+    margin: 0 auto;
+}
+#logo{
+    width: 81px;
+    height: 29px;
+    fill: #ee2e24;
+}
+.logoBlock{
+    width: 60%;
+    float: left;
+}
+.menuBlock{
+    width: 40%;
+    float: left;
+    
+}
+#wizard-logo{
+    width: 25px;
+    height: 18px;
+    background-color: #111;
+    border-radius: 3px;
+    padding: 10px;
+}
+.menuleft{
+    width: 50%;
+    float: left;
+    font-size: 14px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.menuright{
+    width: 40%;
+    float: left;
+}
+
+.menuleft>div:nth-child(1){
+    width: 20%;
+    float: left;
+
+}
+.menuleft>div:nth-child(2){
+    width: 73%;
+    float: left;
+    margin: 0 6px;
+    
+}
+.menuleft div p{
+    margin: 0;
+}
+.menuleft>div>p:nth-child(1){
+    font-size: 14px;
+}
+.menuleft>div>p:nth-child(2){
+    font-size: 11px;
+}
+
+.menuright ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menuright ul li{
+    float: left;
+}
+.menuright ul li a{
+    color: #555;
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+/* CITY STARTS HERE*/
+
+
+#city{
+    background-color: #f3f5f7;
+    height: 40px;
+}
+#city article{
+    width: 90%;
+    margin: 0 auto;
+}
+#city  ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#city ul li{
+    float: left;
+    margin: 0p 14px;
+}
+#city ul li a{
+    padding: 10px 20px;
+    display: inline-block;
+    color: #666;
+    text-decoration: none;
+}
+#city ul li a:hover{
+    background-color: #eee;
+    transition: ease ease-in-out all 0.7s;
+    border-bottom: 1px solid #999;
+}
+#city ul li a::after{
+    content: '^';
+    margin: 0px 3px;
+    line-height: 10px;
+} 
+/* CITY ENF HERE */
+
+/* slideblock STSRT HERE */
+#slideblock{
+    background: linear-gradient(135.46deg,#d11450, #df293a);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#slideblock article{
+    width: 90%;
+    margin: 0 auto;
+}
+#slideblock h1{
+    font-size: 32px;
+    font-weight: 800;
+    text-transform: capitalize;
+    margin: 10px 0px 20px;
+    color: #fff;
+}
+#slideblock>article>main>form>span>input:nth-child(1){
+    width: 100%;
+    border-radius: 5px 0px 0px 5px;
+    padding: 21px;
+    
+}
+#slideblock>article>main>form>span{
+    width: 30%;
+    position: relative;
+}
+.nearme{
+    position: absolute;
+    background-color: #eee;
+    padding: 6px 10px;
+    border-radius: 20px;
+    right: 8px;
+    top: 14px;
+    font-size: 13px;
+    color: #111;
+    font-weight: 800;
+    
+}
+#slideblock>article>main>form>input:nth-child(2){
+    width: 20%;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+}
+#slideblock>article>main>form>input:nth-child(3){
+    width: 20%;
+}
+/* how to change color placeholder ssudo classes */
+#slideblock>article>main>form>input:nth-child(3)::placeholder{
+    color: #111;
+}
+#slideblock>article>main>form>input,
+#slideblock>article>main>form>span>input{
+    padding: 18px;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    font-size: 17px;
+    
+}
+#slideblock>article>main>form{
+    display: flex;
+    justify-content: center;
+    
+}
+#slideblock>article>main>form>button{
+    background-color: #1ab64f;
+    color: white;
+    padding: 20px 60px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 17px;
+    font-weight: bold;
+}
+/* slideblock end here */
+
+/* addBlock start here */
+#addBlock article
+{
+  width: 90%;
+  margin: 0 auto;
+}
+#addBlock article img
+{
+  width: 100%;
+  height: 140px;
+  border-radius: 4px;
+}
+#addBlock article figure
+{
+  margin: 40px 0;
+}
+/* addBlock ends here */
+
+/* saveBlock start here */
+#saveBlock article
+{
+  background-color: #eee;
+  width: 90%;
+  margin: 0 auto;
+}
+#saveBlock article h1,
+#hotalsandhomes article h1
+{
+  font-weight: bold;
+  font-size: 26px;
+  color: #000;
+}
+#saveBlock article main div 
+{
+  width: 33%;
+  height: 200px;
+  overflow: hidden;
+}
+#saveBlock article main div img
+{
+  width: 100%;
+  height: 200px;
+  border-radius: 6px;
+}
+#saveBlock article main
+{
+  display: flex;
+  justify-content: space-between;
+}
+#saveBlock article main div img:hover
+{
+  transform: scale(1.1);
+  transition: ease all 0.7s;
+}
+/* saveBlock Ends here */
+
+
+
+/* oyo hotal and home start here */
+#hotalsandhomes article{
+    width: 90%;
+    margin: 0 auto;
+}
+#hotalsandhomes article main{
+    display: flex;
+}
+#hotalsandhomes article main .leftmain{
+    width: 40%;
+    background-color: #1ab64f;
+}
+#hotalsandhomes article main .rightmain{
+    width: 60%;
+    background-color: #999;
+}
+#hotalsandhomes .leftmain section{
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.leftmain section{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 30px 20px;
+    background-color: #e4e4e4;
+    box-shadow: 0 8px 22px 0px hsla(0, 0%, 58%,0.18);
+    border-bottom: 1px solid #d4d4d4;
+
+}
+
+.leftmain figure{
+    margin: 0;
+    padding: 0;
+}
+.leftmain img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+}
+.innerblockleft{
+    width: 25% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.innerblockright{
+    width: 75%;
+}
+.leftmain section:hover {
+    border-left: 3px solid#ee2e44;
+    background-color: #fff;
+    transition: ease all 0.4s;
+    cursor: pointer;
+}
+.leftmain section .innerblockleft figcaption{
+    background: #fff;
+    padding: 3px 10px;
+    border-radius: 5px;
+    box-shadow:1px 4px 2px 1px #ccc;
+    font-size:13px;
+    margin: -19px 0 14px;
+}
+.white{
+    background-color: white !important;
+    color: #111;
+}
+.red{
+    background-color: red !important;
+    color: #fff;
+}
+.black{
+    background-color: #111 !important;
+    color: #fff;
+}
+.blue{
+    background-color: blue !important;
+    color: #fff;
+}
+.gold{
+    background-color: rgb(186, 133, 57) !important;
+    color: #fff;
+}
+
+
+.innerblockright{
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #ee2e24;
+    text-decoration: none;
+}
+.innerblockright p{
+    
+    line-height: 1.5em;
+    color: #222;
+    max-height: 3em;
+    max-width: 80%;
+}
+.rightmain figure{
+    margin: 0;
+    padding: 0;
+
+}
+.rightmain img{
+   width: 100%;
+   height: 100%;
+    
+}
+
+
+/*hOTELCHAIN CSS BLOCK STARTS HERE*/
+
+
+#Hotelchain{
+    background-color: #f3f5f7;
+    height: 500px;
+    margin-top: 40px;
+
+}
+
+#Hotelchain article{
+    display: flex;
+}
+
+.lefthotelchain{
+    width: 50%;
+    background: url(../images/bG.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    
+
+
+}
+.righthotelchain{
+    width: 50%;
+    padding: 50px 0;
+
+
+}
+.lefthotelchain figure{
+    margin: 0;
+    padding: 0;
+
+
+}
+.lefthotelchain img{
+    width: 115px;
+    height: 115px;
+
+}
+
+.hotelchainImg1{
+    position: relative;
+    left: 115px;
+    bottom: 115px;
+
+}
+.hotelchainImg2{
+    position: relative;
+    left: 200px;
+    bottom: 135px;
+    
+}
+.hotelchainImg3{
+    position: relative;
+    left: 230px;
+    bottom: 150px;
+    
+}
+.hotelchainImg4{
+    position: relative;
+    right: 80px;
+    
+    
+    
+}
+.hotelchainImg5{
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+    
+}
+.hotelchainImg6{
+    position: relative;
+    right: 220px;
+    top: 90px;
+
+    
+}
+.righthotelchain h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+.righthotelchain main{
+    display: flex;
+    margin: 40px 0;
+
+}
+.righthotelchain main div{
+  width: auto;
+  transform: skewX(-30deg);
+  padding: 0 17px;
+}
+.inside{
+    transform: skewX(30deg)!important;
+}
+.middleone{
+    border-left: 1px solid #666;
+    border-right: 1px solid #666;
+}
+
+.righthotelchain main div h4{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+}
+.righthotelchain main div p{
+    margin: 0;
+    color: #666;
+}
+.righthotelchain ul{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.righthotelchain ul li{
+    width: 30%;
+    padding: 20px 0;
+    text-transform: capitalize;
+    position: relative;
+}
+.righthotelchain ul li span{
+    height: 8px;
+    width: 8px;
+    display: block;
+    text-indent:-9999px;
+    border-radius: 100%;
+    position: absolute;
+    top: 27px;
+    left:-18px;
+}
+.india{
+    background-color: rgb(26, 182, 79)
+}
+.china{
+    background-color: rgb(255, 127, 123);
+}
+.Malaysia{
+    background-color: rgb(245, 166, 35);
+}
+.Nepal{
+   background-color:  rgb(95, 214, 242);
+}
+.indonesia{
+    background-color: rgb(254, 148, 241);
+}
+.UAE{
+    background-color: rgb(126, 137, 228);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BORDER STSRT*/
+/* 
+#wizard-logo{
+    width: 25px;
+    height: 18px;
+    background-color: #111;
+    padding: 10px;
+    border-radius: 3px;
+}
+.menuBlock nav ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.menuBlock nav ul li{
+    display: inline-block;
+    border-right: 1px solid #eee;
+}
+.menuBlock nav ul li a{
+    padding: 10px 10px;
+    display: block;
+    text-decoration: none;
+    color: #444;
+}
+.memberclass1{
+    font-size: 14px;
+}
+.memberclass2{
+ font-size: 11px;
+}
+.svgclass{
+    float: left;
+    display: block;
+    margin: 0px 7px;
+}
+.menuBlock nav ul li:first-child{
+    width: 55%;
+}
+.menuBlock nav ul li a.firstli{
+border: 1px solid#eee;
+border-radius: 5px;
+padding: 4px;
+margin: 10px 6px;
+} */
+/* BORDER END*/
+
+
+
+/* #LogoAndMenuBlock>article>div:first-child{
+    background-color: blue;
+}
+#LogoAndMenuBlock>article>div:nth-child(5){
+    background-color: pink;
+}
+#LogoAndMenuBlock>article>div:last-child{
+    background-color: yellow;
+} */
+/* #LogoAndMenuBlock>article>div:nth-child(odd){
+    background-color: green;
+}
+#LogoAndMenuBlock>article>div:nth-child(even){
+    background-color: black;
+} */
+
+
+/* 
+#test{
+    background-color: red;
+    border: 1px solid maroon;
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    color: white;
+    box-shadow: inset 1px 1px 6px 1px #111;
+}
+#text1 h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 80px;
+    letter-spacing: 2px;
+    text-shadow: 2px 4px 5px red;
+} */
